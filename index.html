@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Houman Badr || UV-Mapper</title>
+    <META NAME="Description" CONTENT="houman badr cv">
+    
+    <meta property="og:title" content="houman badr UV-Mapper">
+    <meta property="og:description" content="Houman Badr || UV-Mapper">
+    <meta property="og:url" content="https://pixel-park.github.io/"> 
+    <meta property="og:image" content="https://pixel-park.github.io/pic.jpg">   
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="css/style.css?2" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/png">
+    <script src="./js/core.js" defer></script>
+</head>
+<body>          
+            <div class="plugin_wrapper">
+                <nav class="settings">
+                    <input type="file" id="file" class = "gap but" onclick="reset('anim1')" accept="image/*">
+                        <div>
+                            <label class="gap" for="quality">Render quality:</label>
+                    <select class="" id="quality" onchange="reRender()">
+                        <option value="0">Standard - fast</option>
+                        <option value="1">Antialiasing-1</option>
+                        <option value="2">Antialiasing-1 + Sharpen</option>
+                        <option value="3">Antialiasing-4 + Sharpen</option>
+                    </select>
+                        </div>
+                </nav>
+                    <div id="anim1" class="plugin_container">
+                        <img src="./media/video-01/back0000.jpg" class = "screen">  
+                    </div>
+                
+            </div>
+</body>
+</html>
